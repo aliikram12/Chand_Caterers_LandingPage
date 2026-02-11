@@ -185,7 +185,7 @@ const menuData = {
     {
       name: "Punjabi Karahi & Curries",
       desc: "Authentic Punjabi cuisine with rich, aromatic curries and traditional karahi dishes.",
-      img: "https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=800",
+      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoisxKMvMy1FbBsXohI0kbjTKPgODjI1BvFg&s",
     },
     {
       name: "Halal Macaroni & Pasta",
@@ -284,12 +284,32 @@ const menuData = {
     {
       name: "Dosa Party Station",
       desc: "Freshly made dosas with assorted fillings and chutneys. South Indian delicacy.",
-      img: "https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=800",
+      img: "https://i.ytimg.com/vi/u22VWQntZs4/maxresdefault.jpg",
     },
     {
       name: "Chaat Party Station",
       desc: "Interactive Indian street food experience. Assemble your own chaat.",
       img: "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=800",
+    },
+    {
+      name: "South Indian Live Dosa",
+      desc: "South Indian Live Dosa stations provide an interactive, authentic, and customizable dining experience, where chefs prepare fresh, crispy dosas to order at events.",
+      img: "https://balajidosalive.com/assets/gallery/3.webp",
+    },
+    {
+      name: "Chaat Corner Live",
+      desc: "Chaat Corner Live stations provide an interactive, authentic, and customizable dining experience, where chefs prepare fresh, crispy dosas to order at events.",
+      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnONhhKmEQ1yDm2aIHyeOmIM9bxSNj9ET32A&s",
+    },
+    {
+      name: "Street Food  Live",
+      desc: "Pakistan's famous street foods include savory snacks like Samosas, Pakoras, Bun Kebabs, and Chana Chaat, hearty options such as Chapli Kebabs and Nihari, sweet treats like Jalebi, and refreshing drinks like Lassi, with culinary hubs in cities like Lahore",
+      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ__4uYMsgDUrEoonE4As28bLf-S2OEC6Z5Gw&s",
+    },
+    {
+      name: "Tandoori Mixed Grill Live",
+      desc: "A Tandoori Mixed Grill is a popular, high-protein Indo-Pakistani dish featuring a variety of meats—typically chicken tikka, lamb chops, seekh kebabs, and sometimes seafood—marinated in yogurt and spices, then cooked in a clay tandoor oven.",
+      img: "https://img.freepik.com/premium-photo/tandoori-mixed-grill-platter-with-chicken_167857-54829.jpg?w=360",
     },
   ],
 };
