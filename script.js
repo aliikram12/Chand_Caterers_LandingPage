@@ -180,7 +180,7 @@ const menuData = {
     {
       name: "Halal Authentic Chinese",
       desc: "Traditional Chinese dishes prepared with Halal-certified ingredients. From dim sum to stir-fries.",
-      img: "https://images.unsplash.com/photo-1563245372-f21724e3856d?w=800",
+      img: "https://kohinoor-joy.com/wp-content/uploads/2020/01/indo-chinese-food.jpg",
     },
     {
       name: "Punjabi Karahi & Curries",
@@ -193,19 +193,14 @@ const menuData = {
       img: "https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=800",
     },
     {
-      name: "Homemade Comfort Food",
+      name: "Home Made Baking",
       desc: "Classic comfort dishes that taste just like home. Perfect for family gatherings.",
       img: "https://www.southernliving.com/thmb/k5d30JGZdhuwAR6bxpl2xToWJI8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/southern-living-old-fashioned-chicken-pot-pie-3x2-1662-c97054245e034c19b31f2a63cdc8a252.jpg",
     },
     {
-      name: "English Baked Food (Halal)",
-      desc: "Traditional English baked dishes prepared with Halal ingredients. From pies to roasts.",
-      img: "https://images.unsplash.com/photo-1535920527002-b35e96722eb9?w=800",
-    },
-    {
       name: "Butter-based Mixed Grills",
       desc: "Assorted grilled meats marinated in special butter-based sauces. Served with fresh naan.",
-      img: "https://images.unsplash.com/photo-1544025162-d76694265947?w=800",
+      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS91UjijaFmJ9phdTSLSz0cWhhRm81o3vV2Hw&s",
     },
     {
       name: "Charcoal Live-cooking Pizza",
@@ -221,11 +216,6 @@ const menuData = {
       name: "Maharaja-style Vegetarian",
       desc: "Royal vegetarian feast fit for a king. Multiple courses of rich vegetarian dishes.",
       img: "https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=800",
-    },
-    {
-      name: "Grandma-style Homemade Food",
-      desc: "Traditional recipes cooked with love and care. Hearty and comforting.",
-      img: "https://images.unsplash.com/photo-1556909212-d5b604d0c90d?w=800",
     },
   ],
   special: [
@@ -255,24 +245,9 @@ const menuData = {
       img: "https://images.unsplash.com/photo-1540420773420-3366772f4999?w=800",
     },
     {
-      name: "African Caribbean",
-      desc: "Bold and flavorful African and Caribbean dishes. Spicy and aromatic.",
-      img: "https://images.unsplash.com/photo-1604329760661-e71dc83f8f26?w=800",
-    },
-    {
       name: "Mediterranean Cuisine",
       desc: "Healthy Mediterranean dishes rich in olive oil, fresh vegetables, and lean proteins.",
       img: "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=800",
-    },
-    {
-      name: "Chinese & Thai Fusion",
-      desc: "Perfect blend of Chinese and Thai culinary traditions.",
-      img: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=800",
-    },
-    {
-      name: "Texture-Modified Meals",
-      desc: "Special meals designed for those with swallowing difficulties. Nutritious and easy to consume.",
-      img: "https://www.publicsectorcatering.co.uk/sites/default/files/styles/single_page/public/images/products/PP%20Rice%20Range%20Shot.jpg?itok=8jOg8nrD",
     },
   ],
   live: [
@@ -304,12 +279,25 @@ const menuData = {
     {
       name: "Street Food  Live",
       desc: "Pakistan's famous street foods include savory snacks like Samosas, Pakoras, Bun Kebabs, and Chana Chaat, hearty options such as Chapli Kebabs and Nihari, sweet treats like Jalebi, and refreshing drinks like Lassi, with culinary hubs in cities like Lahore",
-      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ__4uYMsgDUrEoonE4As28bLf-S2OEC6Z5Gw&s",
+      img: "https://tb-static.uber.com/prod/image-proc/processed_images/6f0651bd85e4322a40e96a31d2942f5d/3ac2b39ad528f8c8c5dc77c59abb683d.jpeg",
     },
     {
       name: "Tandoori Mixed Grill Live",
       desc: "A Tandoori Mixed Grill is a popular, high-protein Indo-Pakistani dish featuring a variety of meats—typically chicken tikka, lamb chops, seekh kebabs, and sometimes seafood—marinated in yogurt and spices, then cooked in a clay tandoor oven.",
       img: "https://img.freepik.com/premium-photo/tandoori-mixed-grill-platter-with-chicken_167857-54829.jpg?w=360",
+    },
+  ],
+  sweet: [
+    {
+      name: "Sweet Dishes Station",
+      desc: "A delightful variety of traditional and modern sweets freshly prepared for guests.",
+      img: "https://www.cookwithkushi.com/wp-content/uploads/2018/08/best_easy_indian_desserts_sweets.jpg",
+    },
+
+    {
+      name: "Rabdi Jalebi Corner",
+      desc: "Hot crispy jalebis served with rich creamy rabdi for a perfect sweet experience.",
+      img: "https://halwaisweets.com/wp-content/uploads/2022/05/Ghee-Jalebi-with-Rabdi.jpg",
     },
   ],
 };
@@ -334,7 +322,7 @@ function populateMenu() {
                                 </div>
                             </div>
                             <div class="p-6">
-                                <span class="text-acid text-xs tracking-[0.3em] uppercase">${category === "gym" ? "Protein" : category === "catering" ? "Catering" : category === "special" ? "Special" : "Live"}</span>
+                                <span class="text-acid text-xs tracking-[0.3em] uppercase">${category === "gym" ? "Protein" : category === "catering" ? "Catering" : category === "special" ? "Special" : category === "live" ? "Live" : "sweet"}</span>
                                 <h3 class="font-serif text-xl mt-2 mb-3 group-hover:text-acid transition-colors">${item.name}</h3>
                                 <p class="text-gray-400 text-sm mb-4 line-clamp-3">${item.desc}</p>
                                 <a href="https://wa.me/447741561980?text=Hi%20Chand%20Caterers,%20I'm%20interested%20in%20ordering%20${encodeURIComponent(item.name)}" 
