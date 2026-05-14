@@ -301,7 +301,7 @@ const menuData = {
     },
   ],
 };
-
+ 
 function populateMenu() {
   Object.keys(menuData).forEach((category) => {
     const grid = document.getElementById(`${category}-grid`);
