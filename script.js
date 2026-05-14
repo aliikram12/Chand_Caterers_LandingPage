@@ -180,12 +180,12 @@ const menuData = {
     {
       name: "Halal Authentic Chinese",
       desc: "Traditional Chinese dishes prepared with Halal-certified ingredients. From dim sum to stir-fries.",
-      img: "https://kohinoor-joy.com/wp-content/uploads/2020/01/indo-chinese-food.jpg",
+      img: "https://platform.sf.eater.com/wp-content/uploads/sites/28/chorus/uploads/chorus_asset/file/24526148/OldMandarinIslamic_PChang_2414.jpg?quality=90&strip=all&crop=0.012500000000003%2C0%2C99.975%2C100&w=2400",
     },
     {
       name: "Punjabi Karahi & Curries",
       desc: "Authentic Punjabi cuisine with rich, aromatic curries and traditional karahi dishes.",
-      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoisxKMvMy1FbBsXohI0kbjTKPgODjI1BvFg&s",
+      img: "https://i.ytimg.com/vi/DjdnEFQJ6xM/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLD2ifiDUdOnXN-zpJeOfq0dKWiZzw",
     },
     {
       name: "Halal Macaroni & Pasta",
@@ -200,7 +200,7 @@ const menuData = {
     {
       name: "Butter-based Mixed Grills",
       desc: "Assorted grilled meats marinated in special butter-based sauces. Served with fresh naan.",
-      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS91UjijaFmJ9phdTSLSz0cWhhRm81o3vV2Hw&s",
+      img: "https://t4.ftcdn.net/jpg/02/15/92/17/360_F_215921743_7NZzZCCIc1T34gd6Kj6wOSzP3KbnDuXB.jpg",
     },
     {
       name: "Charcoal Live-cooking Pizza",
