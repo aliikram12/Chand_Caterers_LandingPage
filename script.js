@@ -317,7 +317,7 @@ function populateMenu() {
                                 <span class="text-acid text-xs tracking-[0.3em] uppercase">${category === "gym" ? "Protein" : category === "catering" ? "Catering" : category === "special" ? "Special" : "Live"}</span>
                                 <h3 class="font-serif text-xl mt-2 mb-3 group-hover:text-acid transition-colors">${item.name}</h3>
                                 <p class="text-gray-400 text-sm mb-4 line-clamp-3">${item.desc}</p>
-                                <a href="https://wa.me/447741561980?text=Hi%20Chand%20Caterers,%20I'm%20interested%20in%20ordering%20${encodeURIComponent(item.name)}" 
+                                <a href="https://wa.me/447825214010?text=Hi%20Chand%20Caterers,%20I'm%20interested%20in%20ordering%20${encodeURIComponent(item.name)}" 
                                    target="_blank"
                                    class="inline-block text-acid border-b border-acid pb-1 hover:text-white hover:border-white transition-all text-sm">
                                     Book Now →
