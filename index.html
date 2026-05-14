@@ -64,10 +64,11 @@
 
     <!-- Navigation -->
     <nav
-        class="fixed top-0 w-full z-50 mix-blend-difference px-6 py-6 flex justify-between items-center bg-ink/80 backdrop-blur-md border-b border-white/10">
-        <div class="hover-target magnetic-btn cursor-pointer flex items-center h-full" onclick="showPage('home')">
-            <img src="Logo.png" alt="Chand Caterers Logo" class="h-14 md:h-16 w-auto object-contain -my-4">
+        class="fixed top-0 w-full z-50 mix-blend-difference px-6 py-2 flex justify-between items-center bg-ink/80 backdrop-blur-md border-b border-white/10 h-16 md:h-20">
+        <div class="hover-target magnetic-btn cursor-pointer flex items-center absolute left-6 top-1/2 -translate-y-1/2 h-full" onclick="showPage('home')">
+            <img src="Logo.png" alt="Chand Caterers Logo" class="h-28 md:h-40 w-auto object-contain">
         </div>
+        <div></div> <!-- Spacer for absolute logo -->
 
         <div class="hidden md:flex space-x-8 text-sm tracking-widest uppercase items-center">
             <button onclick="showPage('home')" class="hover:text-acid transition-colors hover-target magnetic-btn nav-link" data-page="home">Home</button>
